@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/idIVTraiCay"
+        android:layout_margin="10dp">
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên"
+        android:layout_toRightOf="@id/idIVTraiCay"
+        android:textSize="30sp"
+        android:id="@+id/idTVTen"
+        android:textColor="#CD1010"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mô tả"
+        android:layout_toRightOf="@id/idIVTraiCay"
+        android:layout_below="@id/idTVTen"
+        android:textSize="30sp"
+        android:textColor="#139CAE"
+        android:id="@+id/idTVMoTa"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"></TextView>
+</RelativeLayout>
